@@ -1,0 +1,42 @@
+.carousel-caption {
+  bottom: 30%;
+  z-index: 1000;
+}
+
+.carousel-item {
+  height: 60vh;
+  img {
+    height: 60vh;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+  .carousel-item {
+    height: 80vh;
+    img {
+      height: 80vh;
+    }
+  }
+  .card
+  {
+      img{
+          height: 200px;
+      }
+  }
+  .destination
+  {
+      img{
+          height: 300px;
+      }
+  }
+  .tour-detail-row
+  {
+    position: relative;
+    .card
+    {
+      position: sticky;
+      top: 10%;
+    }
+  }
+}

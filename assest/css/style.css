@@ -1,0 +1,45 @@
+.carousel-caption {
+  bottom: 30%;
+  z-index: 1000;
+}
+
+.carousel-item {
+  height: 60vh;
+}
+
+.carousel-item img {
+  height: 60vh;
+}
+
+.login-form
+{
+  width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .login-form
+  {
+    width: 50%;
+  }
+  .carousel-item {
+    height: 80vh;
+  }
+  .carousel-item img {
+    height: 80vh;
+  }
+  .card img {
+    height: 200px;
+  }
+  .destination img {
+    height: 300px;
+  }
+  .tour-detail-row {
+    position: relative;
+  }
+  .tour-detail-row .card {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
