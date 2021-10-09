@@ -10,6 +10,14 @@
   }
 }
 
+.destination-carousel {
+  .carousel-item {
+    height: 100%;
+    img {
+      height: 100%;
+    }
+  }
+}
 
 @media only screen and (min-width: 1200px) {
   .carousel-item {
@@ -18,25 +26,33 @@
       height: 80vh;
     }
   }
-  .card
-  {
-      img{
-          height: 200px;
+  .destination-carousel {
+    .carousel-item {
+      height: 100%;
+      img {
+        height: 100%;
       }
+    }
   }
-  .destination
-  {
-      img{
-          height: 300px;
-      }
+  .card {
+    img {
+      height: 200px;
+    }
   }
-  .tour-detail-row
-  {
+  .destination {
+    img {
+      height: 300px;
+    }
+  }
+  .tour-detail-row {
     position: relative;
-    .card
-    {
+    .card {
       position: sticky;
       top: 10%;
     }
   }
 }
+
+
+
+
