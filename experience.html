@@ -30,7 +30,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <!-- Container wrapper -->
       <div class="container">
         <!-- Navbar brand -->
@@ -87,7 +87,7 @@
               <a
                 class="nav-link d-flex flex-column text-center"
                 aria-current="page"
-                href="./tour.html"
+                href="#"
               >
                 <!-- <i class="fas fa-user-friends fa-lg"></i
                 > -->
@@ -98,7 +98,7 @@
               <a
                 class="nav-link d-flex flex-column text-center"
                 aria-current="page"
-                href="staycation.html"
+                href="#"
               >
                 <!-- <i class="fas fa-briefcase fa-lg"></i
                 > -->
@@ -109,7 +109,7 @@
               <a
                 class="nav-link d-flex flex-column text-center"
                 aria-current="page"
-                href="./experience.html"
+                href="#"
               >
                 <!-- <i class="fas fa-comment-dots fa-lg"></i
                 > -->
@@ -120,7 +120,7 @@
               <a
                 class="nav-link d-flex flex-column text-center"
                 aria-current="page"
-                href="./Destination.html"
+                href="#"
               >
                 <!-- <i class="fas fa-bell fa-lg"></i
                 > -->
@@ -256,7 +256,7 @@
         </div>
       </div>
       <div class="carousel-caption d-md-block">
-        <h1>Make your next trip awesome</h1>
+        <h1>To the world of an incredible vacation.</h1>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
         <div
           class="
@@ -267,26 +267,25 @@
             align-items-center
           "
         >
-          <div class="form-outline w-75">
-            <input
-              id="search-input"
-              type="search"
-              id="form1"
-              class="form-control bg-light"
-              placeholder="Search For Places,Hotels,Activities"
-              style="height: 48px"
-            />
+          <div class="form-outline w-75 d-flex">
+            <select class="form-select form-select-lg bg-light rounded-0">
+              <option selected>Indonesia</option>
+              <option value="1">China</option>
+              <option value="1">Seychells</option>
+              <option value="1">Japan</option>
+              <option value="1">Taiwan</option>
+              <option value="1">South Korea</option>
+            </select>
             <!-- <label class="form-label" for="form1">Search</label> -->
           </div>
-          <a
-            href="./search.html"
+          <button
             id="search-button"
             type="button"
-            class="btn btn-primary"
-            style="height: 48px"
+            class="btn btn-primary rounded-0"
+            style="height: 45px"
           >
             <i class="fas fa-search"></i>
-          </a>
+          </button>
         </div>
       </div>
       <!-- Inner -->
@@ -313,53 +312,9 @@
     </div>
     <!-- Carousel wrapper -->
 
-    <!-- features -->
+    <!--Romance and Honeymoon -->
     <div class="container px-4 py-5">
-      <h2 class="pb-2">What Make Us Special</h2>
-      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-        <div class="col d-flex align-items-start">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2>Featured title</h2>
-            <p>
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
-            </p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2>Featured title</h2>
-            <p>
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
-            </p>
-          </div>
-        </div>
-        <div class="col d-flex align-items-start">
-          <div
-            class="d-flex flex-column justify-content-center align-items-center"
-          >
-            <h2>Featured title</h2>
-            <p>
-              Paragraph of text beneath the heading to explain the heading.
-              We'll add onto it with another sentence and probably just keep
-              going until we run out of words.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- features -->
-
-    <!-- feature tour -->
-    <div class="container px-4 py-5">
-      <h2 class="pb-2">Recommended Tours</h2>
+      <h3 class="pb-2">India</h3>
       <div class="row">
         <div class="col-12 col-md-3 my-2">
           <div class="card">
@@ -371,7 +326,7 @@
                 src="https://mdbootstrap.com/img/new/standard/nature/100.jpg"
                 class="img-fluid"
               />
-              <a href="./tourdetail.html">
+              <a href="#!">
                 <div
                   class="mask"
                   style="background-color: rgba(251, 251, 251, 0.15)"
@@ -403,8 +358,7 @@
                 src="https://media.timeout.com/images/105240189/750/422/image.jpg"
                 class="img-fluid"
               />
-
-              <a href="#">
+              <a href="#!">
                 <div
                   class="mask"
                   style="background-color: rgba(251, 251, 251, 0.15)"
@@ -492,169 +446,24 @@
         </div>
       </div>
       <a
-        href="./tour.html"
+        href="./tourtheme.html"
         type="button"
         class="btn btn-outline-info py-3 my-3"
         data-mdb-ripple-color="dark"
       >
-        Discover All Tours
+        View More From India
       </a>
     </div>
-    <!-- feature tour -->
+    <!--Romance and Honeymoon-->
 
-    <!-- amazing Destinations -->
-    <div class="container px-4 py-5 destination">
-      <h2 class="pb-2 mb-4">Decent Destinations</h2>
-      <div class="row">
-        <div class="col-lg-4 col-md-12 mb-lg-0 p-0">
-          <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
-            <img
-              src="https://media.timeout.com/images/105240189/750/422/image.jpg"
-              class="w-100"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                <div
-                  class="d-flex justify-content-center align-items-center h-100"
-                >
-                  <h1 class="text-white mb-0">INDONESIA</h1>
-                </div>
-              </div>
-              <div class="hover-overlay">
-                <div
-                  class="mask"
-                  style="background-color: rgba(251, 251, 251, 0.2)"
-                ></div>
-              </div>
-            </a>
-          </div>
-
-          <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
-            <img
-              src="https://static.toiimg.com/photo/82974093.cms"
-              class="w-100"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                <div
-                  class="d-flex justify-content-center align-items-center h-100"
-                >
-                  <h1 class="text-white mb-0">JAPAN</h1>
-                </div>
-              </div>
-              <div class="hover-overlay">
-                <div
-                  class="mask"
-                  style="background-color: rgba(251, 251, 251, 0.2)"
-                ></div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mb-lg-0 p-0">
-          <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
-            <img
-              src="https://www.planetware.com/wpimages/2019/09/seychelles-in-pictures-most-beautiful-places-to-visit-anse-source-dargent-la-digue.jpg"
-              class="w-100"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                <div
-                  class="d-flex justify-content-center align-items-center h-100"
-                >
-                  <h1 class="text-white mb-0">SEYCHELLES</h1>
-                </div>
-              </div>
-              <div class="hover-overlay">
-                <div
-                  class="mask"
-                  style="background-color: rgba(251, 251, 251, 0.2)"
-                ></div>
-              </div>
-            </a>
-          </div>
-
-          <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
-            <img
-              src="https://www.thespiritsbusiness.com/content/uploads/2019/03/Shanghai.jpg"
-              class="w-100"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                <div
-                  class="d-flex justify-content-center align-items-center h-100"
-                >
-                  <h1 class="text-white mb-0">CHINA</h1>
-                </div>
-              </div>
-              <div class="hover-overlay">
-                <div
-                  class="mask"
-                  style="background-color: rgba(251, 251, 251, 0.2)"
-                ></div>
-              </div>
-            </a>
-          </div>
-        </div>
-
-        <div class="col-lg-4 mb-lg-0 p-0">
-          <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
-            <img
-              src="https://images.hindustantimes.com/img/2021/02/03/1600x900/hyangwonjeong-pavilion-5900902_1920_1612329095702_1612329102098.jpg"
-              class="w-100"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                <div
-                  class="d-flex justify-content-center align-items-center h-100"
-                >
-                  <h1 class="text-white mb-0">SOUTH KOREA</h1>
-                </div>
-              </div>
-              <div class="hover-overlay">
-                <div
-                  class="mask"
-                  style="background-color: rgba(251, 251, 251, 0.2)"
-                ></div>
-              </div>
-            </a>
-          </div>
-
-          <div class="bg-image hover-zoom" data-mdb-ripple-color="light">
-            <img
-              src="https://www.thoughtco.com/thmb/ZLrtgEGK8Ne9Ryx-b2TfDgp2FDQ=/4288x2848/filters:fill(auto,1)/Taiwan-58b9d0fb5f9b58af5ca84819.jpg"
-              class="w-100"
-            />
-            <a href="#!">
-              <div class="mask" style="background-color: rgba(0, 0, 0, 0.4)">
-                <div
-                  class="d-flex justify-content-center align-items-center h-100"
-                >
-                  <h1 class="text-white mb-0">TAIWAN</h1>
-                </div>
-              </div>
-              <div class="hover-overlay">
-                <div
-                  class="mask"
-                  style="background-color: rgba(251, 251, 251, 0.2)"
-                ></div>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- amaxing Destinations -->
-
-    <!-- feature activity -->
+    <!--Family -->
     <div class="container px-4 py-5">
-      <h2 class="pb-2">Elegent Experiences</h2>
+      <h3 class="pb-2">Indonesia</h3>
       <div class="row">
         <div class="col-12 col-md-3 my-2">
           <div class="card">
             <div
-              class="bg-image hover-zoom ripple"
+              class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
               <img
@@ -671,7 +480,7 @@
             <div class="card-body">
               <p>
                 <span class="badge rounded-pill bg-light text-dark"
-                  >Adventure and Culture</span
+                  >Romance and Honeymoon</span
                 >
               </p>
               <p class="card-title">
@@ -686,11 +495,11 @@
         <div class="col-12 col-md-3 my-2">
           <div class="card">
             <div
-              class="bg-image hover-zoom ripple"
+              class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
               <img
-                src="https://mdbootstrap.com/img/new/standard/nature/101.jpg"
+                src="https://media.timeout.com/images/105240189/750/422/image.jpg"
                 class="img-fluid"
               />
               <a href="#!">
@@ -703,7 +512,7 @@
             <div class="card-body">
               <p>
                 <span class="badge rounded-pill bg-light text-dark"
-                  >Adventure and Culture</span
+                  >Art, History & Culture</span
                 >
               </p>
               <p class="card-title">
@@ -718,7 +527,7 @@
         <div class="col-12 col-md-3 my-2">
           <div class="card">
             <div
-              class="bg-image hover-zoom ripple"
+              class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
               <img
@@ -735,7 +544,7 @@
             <div class="card-body">
               <p>
                 <span class="badge rounded-pill bg-light text-dark"
-                  >Adventure and Culture</span
+                  >Luxury & Charme</span
                 >
               </p>
               <p class="card-title">
@@ -750,7 +559,7 @@
         <div class="col-12 col-md-3 my-2">
           <div class="card">
             <div
-              class="bg-image hover-zoom ripple"
+              class="bg-image hover-overlay ripple"
               data-mdb-ripple-color="light"
             >
               <img
@@ -767,7 +576,7 @@
             <div class="card-body">
               <p>
                 <span class="badge rounded-pill bg-light text-dark"
-                  >Adventure and Culture</span
+                  >Adventure</span
                 >
               </p>
               <p class="card-title">
@@ -785,36 +594,10 @@
         class="btn btn-outline-info py-3 my-3"
         data-mdb-ripple-color="dark"
       >
-        Discover All Activites
+        View More From Indonesia
       </button>
     </div>
-    <!-- feature activity -->
-
-    <!-- call to action -->
-    <main class="container-fluid px-4 py-5">
-      <div
-        class="
-          p-5
-          shadow
-          rounded
-          mt-3
-          d-flex
-          flex-column
-          align-items-center
-          justify-content-center
-        "
-      >
-        <h1>Get Your Customize Tour</h1>
-        <p class="lead">Tell Us What Are You Planning</p>
-        <a
-          class="btn btn-lg btn-primary"
-          href="/docs/5.1/components/navbar/"
-          role="button"
-          >Contact Us &raquo;</a
-        >
-      </div>
-    </main>
-    <!-- call to action -->
+    <!--Family-->
 
     <!-- feature staycation -->
     <div class="container px-4 py-5">
@@ -830,7 +613,7 @@
                 src="http://www.shangri-la.com/uploadedImages/Corporate/about-us/our-brands/SL-Our-Brand-Shangri-La-Hotels.jpg?width=720&height=283&mode=crop&quality=80"
                 class="img-fluid"
               />
-              <a href="staycationdetail.html">
+              <a href="#!">
                 <div
                   class="mask"
                   style="background-color: rgba(251, 251, 251, 0.15)"
@@ -1021,14 +804,13 @@
           </div>
         </div>
       </div>
-      <a
-        href="./staycation.html"
+      <button
         type="button"
-        class="btn btn-outline-info py-3 my-3"
+        class="btn btn-outline-info py-3 my-3 hover-ripple"
         data-mdb-ripple-color="dark"
       >
         Discover All Staycation
-      </a>
+      </button>
     </div>
     <!-- feature Staycation -->
 
