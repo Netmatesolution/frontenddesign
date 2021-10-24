@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FLYME</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <!-- <link rel="stylesheet" href="test.css" /> -->
+  </head>
+  <body>
+    <div class="d-flex" id="wrapper">
+
+      <!-- Sidebar-->
+      <div class="border-end bg-white" id="sidebar-wrapper">
+        <div class="sidebar-heading border-bottom bg-light">FlyMe</div>
+        <div class="list-group list-group-flush">
+          <a
+            class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            "
+            href="#!"
+            >Dashboard</a
+          >
+          <a
+            class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            "
+            href="#!"
+            >Shortcuts</a
+          >
+          <a
+            class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            "
+            href="#!"
+            >Overview</a
+          >
+          <a
+            class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            "
+            href="#!"
+            >Events</a
+          >
+          <a
+            class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            "
+            href="#!"
+            >Profile</a
+          >
+          <a
+            class="
+              list-group-item list-group-item-action list-group-item-light
+              p-3
+            "
+            href="#!"
+            >Status</a
+          >
+        </div>
+      </div>
+      <!-- Sidebar-->
+
+      <!-- Page content wrapper-->
+      <div id="page-content-wrapper">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <!-- Container wrapper -->
+          <div class="container">
+            <!-- Navbar brand -->
+            <button class="btn btn-primary" id="sidebarToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Left links -->
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active d-flex flex-column text-center"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <!-- <i class="fas fa-home fa-lg"></i
+                > -->
+                    <span class="small">Home</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex flex-column text-center"
+                    aria-current="page"
+                    href="./tour.html"
+                  >
+                    <!-- <i class="fas fa-user-friends fa-lg"></i
+                > -->
+                    <span class="small">Tours</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex flex-column text-center"
+                    aria-current="page"
+                    href="staycation.html"
+                  >
+                    <!-- <i class="fas fa-briefcase fa-lg"></i
+                > -->
+                    <span class="small">Staycation</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex flex-column text-center"
+                    aria-current="page"
+                    href="./experience.html"
+                  >
+                    <!-- <i class="fas fa-comment-dots fa-lg"></i
+                > -->
+                    <span class="small">Experience</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex flex-column text-center"
+                    aria-current="page"
+                    href="./Destination.html"
+                  >
+                    <!-- <i class="fas fa-bell fa-lg"></i
+                > -->
+                    <span class="small">Destinations</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex flex-column text-center"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <!-- <i class="fas fa-bell fa-lg"></i
+                > -->
+                    <span class="small">About</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link d-flex flex-column text-center"
+                    aria-current="page"
+                    href="#"
+                  >
+                    <!-- <i class="fas fa-bell fa-lg"></i
+                > -->
+                    <span class="small">Contact</span></a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle d-flex align-items-center"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <img
+                      src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
+                      class="rounded-circle"
+                      height="30"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdownMenuLink"
+                  >
+                    <li><a class="dropdown-item" href="#">My profile</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Logout</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar -->
+
+        <!-- Page content-->
+        <div>
+          <div class="container-fluid">
+            <h1 class="mt-4">Simple Sidebar</h1>
+            <p>
+              The starting state of the menu will appear collapsed on smaller
+              screens, and will appear non-collapsed on larger screens. When
+              toggled using the button below, the menu will change.
+            </p>
+            <p>
+              Make sure to keep all page content within the
+              <code>#page-content-wrapper</code>
+              . The top navbar is optional, and just for demonstration. Just
+              create an element with the
+              <code>#sidebarToggle</code>
+              ID which will toggle the menu when clicked.
+            </p>
+          </div>
+          <div class="container-fluid">
+            <h1 class="mt-4">Simple Sidebar</h1>
+            <p>
+              The starting state of the menu will appear collapsed on smaller
+              screens, and will appear non-collapsed on larger screens. When
+              toggled using the button below, the menu will change.
+            </p>
+            <p>
+              Make sure to keep all page content within the
+              <code>#page-content-wrapper</code>
+              . The top navbar is optional, and just for demonstration. Just
+              create an element with the
+              <code>#sidebarToggle</code>
+              ID which will toggle the menu when clicked.
+            </p>
+          </div>
+        </div>
+        <!-- Page content-->
+
+      </div>
+      <!-- Page content wrapper-->
+
+    </div>
+
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.6.0/mdb.min.js"
+    ></script>
+    <script src="./assest/js/main.js"></script>
+  </body>
+</html>
