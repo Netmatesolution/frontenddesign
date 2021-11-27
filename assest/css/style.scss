@@ -75,12 +75,14 @@
 
 #wrapper {
   overflow-x: hidden;
+  // position: relative;
 }
 
 #sidebar-wrapper {
   min-height: 100vh;
   margin-left: -15rem;
   transition: margin 0.25s ease-out;
+  // position: sticky;
 }
 
 #sidebar-wrapper .sidebar-heading {
@@ -105,6 +107,19 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   height: 400px;
 }
 
+.login-form {
+  width: 100%;
+}
+
+.suggestion-box {
+  display: none;
+  z-index: 9999;
+  position: absolute;
+  // background: white;
+  width: 100%;
+  color: black;
+}
+
 @media (min-width: 768px) {
   #sidebar-wrapper {
     margin-left: 0;
@@ -117,6 +132,9 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
   body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
     margin-left: -15rem;
+  }
+  .login-form {
+    width: 80%;
   }
 }
 
@@ -155,5 +173,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   .staycation-img {
     width: 100%;
     height: 400px;
+  }
+  .login-form {
+    width: 50%;
   }
 }
